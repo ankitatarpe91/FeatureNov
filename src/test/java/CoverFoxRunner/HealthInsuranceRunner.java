@@ -9,7 +9,7 @@ import io.cucumber.testng.CucumberOptions;
 		"C:\\Users\\Hii\\eclipse-workspace\\11_Oct\\src\\test\\resources\\FeatureFile\\CoverfoxHealthplan.feature"
 		}
 		,glue= {"StepDefination","hooks"}
-		,plugin = {"pretty","html:target/Cucumber-reports/reports.html"}, publish = true,
+		,plugin = {"pretty","html:target/Cucumber-reports/reports.html","json:target/Cucumber-reports/reports.json"}, publish = true,
 				dryRun=false)
 
 
